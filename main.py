@@ -5,6 +5,9 @@ import streamlit as st
 import smtplib
 import ssl
 
+# Config the page
+st.set_page_config(page_title="Sasa News App", page_icon="🔍")
+
 # Securely load the secrets
 api_key = st.secrets["newsapi_key"]
 username = st.secrets["email"]
@@ -60,6 +63,7 @@ def display_news(content):
             st.write(post['url'])
             st.write(f"⏳: {post['publishedAt']}")
             st.write('---')
+
 
 # Tabs for Viewing and Sending news
 tab1, tab2 = st.tabs(["Search for News", "Send News to Email"])
