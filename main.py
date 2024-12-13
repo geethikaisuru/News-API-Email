@@ -66,7 +66,7 @@ tab1, tab2 = st.tabs(["Search for News", "Send News to Email"])
 
 with tab1:
     # Title and description
-    st.title('News App by Geethika 🧐')
+    st.title('News App by Sasanka 🧐')
     st.write('This is a simple news app built with Streamlit and NewsAPI')
 
     # Searching part for news
