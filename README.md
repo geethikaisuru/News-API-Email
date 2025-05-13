@@ -45,6 +45,3 @@ Users can:
 - No persistent storage of user preferences or search history
 
 This project serves as a practical example of combining web APIs, email functionality, and a clean user interface in a Streamlit application. 🚀
-
----
-Answer from Perplexity: pplx.ai/share
